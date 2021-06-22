@@ -1,0 +1,44 @@
+@import "../../../assets/styles/variables.scss";
+
+.card{
+    border-radius: 20px;
+    box-shadow: 0 5px 15px black;
+    width: 400px;
+    margin: auto;
+    margin-top: 5%;
+    background-color: $red;
+}
+
+
+.header-image{
+    background-size: cover;
+    width: 100px;
+}
+
+.mat-card-header{
+    background-color: $white;
+    box-shadow: 0 5px 15px black;
+    padding-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mat-card-title{
+    text-transform: uppercase;
+    color: $black;
+    font-size: 25px;
+}
+
+.mat-card-subtitle{
+    color: $black;
+    font-size: 15px;
+}
+
+.mat-chip{
+    background-color: $black !important;
+    box-shadow: 0 5px 15px black;
+}
+
+::ng-deep.mat-chip-list-wrapper{
+    justify-content: space-around;
+}
